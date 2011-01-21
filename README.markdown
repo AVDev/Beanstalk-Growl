@@ -2,11 +2,17 @@
 ## Super Simple Growl Notifications for Beanstalkapp Deployments
 
 ##### Setup
-Simply configure your Pre and Post deployment hooks up in beanstalk to point to this script passing along a GET variable called "hook". For example:
+Simply configure your Pre and Post deployment hooks up in beanstalk to point to this script passing along a GET variable called "hook". For example:  
 
-http://example.com/index.php?hook=pre
-and
-http://example.com/index.php?hook=post
+http://example.com/index.php?hook=pre  
+
+and  
+
+http://example.com/index.php?hook=post  
+
+
+Set the IP and Password of your Mac running growl in index.php. Simples.  
+
 
 
 ##### Other stuff
