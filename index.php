@@ -2,12 +2,12 @@
 	
 	// The IP or Hostname of your mac
 	$ip = '192.168.3.50';
-	$password = '';
+	$password = 'astondb9';
 	
 	// Post or Pre deploy?
 	$hook = $_GET['hook'];
 
-	
+	// decode the payload
 	$data = json_decode(file_get_contents('php://input'));
 		
 	// Growl Class
