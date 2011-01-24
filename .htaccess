@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Beanstalk-Growl"
+AuthUserFile /Library/WebServer/Documents/Beanstalk-Growl/.htpasswd
+Require valid-user
