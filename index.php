@@ -3,7 +3,7 @@
 	// Clients
 	$clients = array(
 		array('192.168.3.50', ''),
-		array('leenug.webhop.org', '')		
+		array('192.168.3.51', '')		
 	);
 
 	// Post or Pre deploy?
